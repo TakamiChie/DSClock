@@ -4,13 +4,13 @@
 
 A watch timer app that also supports Nintendo 3DS Internet browsers.
 
-[x] Nintendo 3DS Browser Supported.
-[x] Clock Supported.
-[ ] Timer Supported.
-[ ] Timer Alerm Setting.
-[ ] Save Settings.
-[ ] Export Settings.
-[ ] Offline Support(PWA compatible?).
+* [x] Nintendo 3DS Browser Supported.
+* [x] Clock Supported.
+* [ ] Timer Supported.
+* [ ] Timer Alerm Setting.
+* [ ] Save Settings.
+* [ ] Export Settings.
+* [ ] Offline Support(PWA compatible?).
 
 ## How do I test it?
 
