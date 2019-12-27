@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, 
+    user-scalable=no, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://cdn.honokak.osaka/honoka/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>Browser Clock/Timer</title>
+</head>
+<body>
+  <h1>Browser Clock/Timer</h1>
+  <div id="clock_area">
+    <div class="tab-pane fade show active" id="item1" role="tapanel">
+      <span id="time_area" class="datetime">
+        <span id="time_area_h"></span>
+        <span class="separator">:</span>
+        <span id="time_area_m"></span>
+        <span class="separator">:</span>
+        <span id="time_area_s"></span>
+      </span>
+      <span id="date_area" class="datetime"></span>
+    </div>
+    <div class="tab-pane fade" id="item2" role="tapanel">
+    </div>
+  </div>
+  <div id="control_area">
+    <ul class="nav nav-pills" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="item1-tab" data-toggle="tab" href="#item1" role="tab" aria-controls="item1" aria-selected="true">Clock</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="item2-tab" data-toggle="tab" href="#item2" role="tab" aria-controls="item2" aria-selected="false">Timer</a>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/locale/ja.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="http://cdn.honokak.osaka/honoka/4.3.1/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
